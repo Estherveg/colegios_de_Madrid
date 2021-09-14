@@ -18,3 +18,4 @@ def EDA_tipos_centro(df):
     print("-----------")
     print(df["TITULARIDAD"].value_counts())
     return
+
