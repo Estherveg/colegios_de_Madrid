@@ -19,6 +19,6 @@ print(df_filtrado["DISTRITO MUNICIPAL"].value_counts())
 
 
 # Busco en la web de la CM la lista filtrada de centros y añado sus url al df
-#df_priv_sec_url=busca_url_centro(df_filtrado)
+df_priv_sec_url=busca_url_centro(df_filtrado)
 # Guardo el df en un fichero csv
-#df_priv_sec_url.to_csv("centros_priv_secund.csv")
+df_priv_sec_url.to_csv("centros_priv_secund.csv")
